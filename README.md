@@ -9,3 +9,7 @@ Training is first done on 9 images each from each class, then we 'freeze' the *f
 After 87 images were scrapped each time from the [API](https://api.data.gov.sg/v1/transport/traffic-images) on 2 different times of the day - assuming one was during **peak time** and other was during **off-peak**, they had to be manually labelled.<br>
 
 Images have been split to train and test (validation) set in the data folder. <br>
+
+###Files in this repository
+1) [Traffic Image Scraper.ipynb](https://github.com/hafsalaeeque/Traffic-Image-Analysis/blob/master/Traffic%20Image%20Scrapper.ipynb), which scraps images from the data source.
+2) [Traffic_Analysis.ipynb](https://github.com/hafsalaeeque/Traffic-Image-Analysis/blob/master/Traffic_Analysis.ipynb), which uses a simple neural network for binary image classification.
