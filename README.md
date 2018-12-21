@@ -10,6 +10,6 @@ After 87 images were scrapped each time from the [API](https://api.data.gov.sg/v
 
 Images have been split to train and test (validation) set in the data folder. <br>
 
-###Files in this repository
+### Files in this repository
 1) [Traffic Image Scraper.ipynb](https://github.com/hafsalaeeque/Traffic-Image-Analysis/blob/master/Traffic%20Image%20Scrapper.ipynb), which scraps images from the data source.
 2) [Traffic_Analysis.ipynb](https://github.com/hafsalaeeque/Traffic-Image-Analysis/blob/master/Traffic_Analysis.ipynb), which uses a simple neural network for binary image classification.
